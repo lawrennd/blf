@@ -1,0 +1,438 @@
+%!PS-Adobe-3.0 
+%%Creator: MATLAB, The Mathworks, Inc.
+%%Title: /user/cs_neural/lawrennd/lib/matlab/blflab/290497/likelihood.ps
+%%CreationDate: 05/02/97  16:39:39
+%%DocumentNeededFonts: Helvetica
+%%+ Helvetica-Bold
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+
+%%BeginProlog
+
+% MathWorks dictionary
+/MathWorks 150 dict begin
+
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s /show ldef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+
+% orientation switch
+/portraitMode 	0 def
+/landscapeMode 	1 def
+
+% coordinate system mappings
+/dpi2point 0 def
+
+% font control
+/FontSize 0 def
+/FMS {
+	/FontSize xstore		%save size off stack
+	findfont
+	[FontSize 0 0 FontSize neg 0 0]
+	makefont
+	setfont
+	}bdef
+
+/reencode {
+exch dup where
+{pop load} {pop StandardEncoding} ifelse
+exch
+dup 3 1 roll
+findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def
+  currentdict
+end
+definefont pop
+} bdef
+
+/isroman {
+findfont /CharStrings get
+/Agrave known
+} bdef
+
+/FMSR {
+3 1 roll 1 index
+dup isroman
+{reencode} {pop pop} ifelse
+exch FMS
+} bdef
+
+/csm {
+	1 dpi2point div -1 dpi2point div scale
+	neg translate
+	landscapeMode eq {90 rotate} if
+	} bdef
+
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+
+% macros for lines and objects
+/L {
+	lineto
+	stroke
+	} bdef
+/MP {
+	3 1 roll moveto
+	1 sub {rlineto} repeat
+	} bdef
+/AP {
+	{rlineto} repeat
+	} bdef
+/PP {
+	closepath eofill
+	} bdef
+/DP {
+	closepath stroke
+	} bdef
+/MR {
+	4 -2 roll moveto
+	dup  0 exch rlineto
+	exch 0 rlineto
+	neg  0 exch rlineto
+	closepath
+	} bdef
+/FR {
+	MR stroke
+	} bdef
+/PR {
+	MR fill
+	} bdef
+/L1i {
+	{ currentfile picstr readhexstring pop } image
+	} bdef
+
+/tMatrix matrix def
+/MakeOval {
+	newpath
+	tMatrix currentmatrix pop
+	translate scale
+	0 0 1 0 360 arc
+	tMatrix setmatrix
+	} bdef
+/FO {
+	MakeOval
+	stroke
+	} bdef
+/PO {
+	MakeOval
+	fill
+	} bdef
+
+/PD {
+	currentlinecap 1 setlinecap 3 1 roll 2 copy moveto lineto stroke setlinecap
+	} bdef
+
+/FA {
+	newpath
+	tMatrix currentmatrix pop
+	translate scale
+	0 0 1 5 -2 roll arc
+	tMatrix setmatrix
+	stroke
+	} bdef
+/PA {
+	newpath
+	tMatrix currentmatrix pop
+	translate 0 0 moveto scale
+	0 0 1 5 -2 roll arc
+	closepath
+	tMatrix setmatrix
+	fill
+	} bdef
+
+
+/FAn {
+	newpath
+	tMatrix currentmatrix pop
+	translate scale
+	0 0 1 5 -2 roll arcn
+	tMatrix setmatrix
+	stroke
+	} bdef
+/PAn {
+	newpath
+	tMatrix currentmatrix pop
+	translate 0 0 moveto scale
+	0 0 1 5 -2 roll arcn
+	closepath
+	tMatrix setmatrix
+	fill
+	} bdef
+
+
+
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:    92   198   543   612
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: graph1 1
+bplot
+
+/dpi2point 12 def
+portraitMode 0216 7344 csm
+
+  898    -5  5404  4962 rc
+88 dict begin %Colortable dictionary
+/c0 { 0 0 0 sr} bdef
+/c1 { 1 1 1 sr} bdef
+/c2 { 1 0 0 sr} bdef
+/c3 { 0 1 0 sr} bdef
+/c4 { 0 0 1 sr} bdef
+/c5 { 1 1 0 sr} bdef
+/c6 { 1 0 1 sr} bdef
+/c7 { 0 1 1 sr} bdef
+1 j
+1 sg
+   0    0 6912 5185 rf
+36 w
+0 4225 1536 0 0 -4225 2808 4613 4 MP
+PP
+-1536 0 0 4225 1536 0 0 -4225 2808 4613 5 MP stroke
+DO
+24 w
+0 sg
+2808 4613 mt 2808  388 L
+2808  388 mt 2808  388 L
+3192 4613 mt 3192  388 L
+3192  388 mt 3192  388 L
+3576 4613 mt 3576  388 L
+3576  388 mt 3576  388 L
+3960 4613 mt 3960  388 L
+3960  388 mt 3960  388 L
+4344 4613 mt 4344  388 L
+4344  388 mt 4344  388 L
+2808 4613 mt 4344 4613 L
+4344 4613 mt 4344 4613 L
+2808 4229 mt 4344 4229 L
+4344 4229 mt 4344 4229 L
+2808 3845 mt 4344 3845 L
+4344 3845 mt 4344 3845 L
+2808 3461 mt 4344 3461 L
+4344 3461 mt 4344 3461 L
+2808 3077 mt 4344 3077 L
+4344 3077 mt 4344 3077 L
+2808 2693 mt 4344 2693 L
+4344 2693 mt 4344 2693 L
+2808 2308 mt 4344 2308 L
+4344 2308 mt 4344 2308 L
+2808 1924 mt 4344 1924 L
+4344 1924 mt 4344 1924 L
+2808 1540 mt 4344 1540 L
+4344 1540 mt 4344 1540 L
+2808 1156 mt 4344 1156 L
+4344 1156 mt 4344 1156 L
+2808  772 mt 4344  772 L
+4344  772 mt 4344  772 L
+2808  388 mt 4344  388 L
+4344  388 mt 4344  388 L
+SO
+36 w
+2808 4613 mt 4344 4613 L
+2808  388 mt 4344  388 L
+4344 4613 mt 4344  388 L
+2808 4613 mt 2808  388 L
+2808 4613 mt 4344 4613 L
+2808 4613 mt 2808  388 L
+2808 4613 mt 2808 4571 L
+2808  388 mt 2808  430 L
+3192 4613 mt 3192 4571 L
+3192  388 mt 3192  430 L
+3576 4613 mt 3576 4571 L
+3576  388 mt 3576  430 L
+3960 4613 mt 3960 4571 L
+3960  388 mt 3960  430 L
+4344 4613 mt 4344 4571 L
+4344  388 mt 4344  430 L
+2808 4613 mt 2850 4613 L
+4344 4613 mt 4302 4613 L
+2808 4229 mt 2850 4229 L
+4344 4229 mt 4302 4229 L
+2808 3845 mt 2850 3845 L
+4344 3845 mt 4302 3845 L
+2808 3461 mt 2850 3461 L
+4344 3461 mt 4302 3461 L
+2808 3077 mt 2850 3077 L
+4344 3077 mt 4302 3077 L
+2808 2693 mt 2850 2693 L
+4344 2693 mt 4302 2693 L
+2808 2308 mt 2850 2308 L
+4344 2308 mt 4302 2308 L
+2808 1924 mt 2850 1924 L
+4344 1924 mt 4302 1924 L
+2808 1540 mt 2850 1540 L
+4344 1540 mt 4302 1540 L
+2808 1156 mt 2850 1156 L
+4344 1156 mt 4302 1156 L
+2808  772 mt 2850  772 L
+4344  772 mt 4302  772 L
+2808  388 mt 2850  388 L
+4344  388 mt 4302  388 L
+2808  388 mt 4344  388 L
+2808 4613 mt 4344 4613 L
+2808 4613 mt 2808  388 L
+4344 4613 mt 4344  388 L
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold /ISOLatin1Encoding 120 FMSR
+
+2967  624 mt 
+(0) s
+3233  624 mt 
+(-0.45) s
+3617  624 mt 
+(-0.79) s
+4036  624 mt 
+(1.76) s
+2967 1008 mt 
+(1) s
+3266 1008 mt 
+(-0.3) s
+3650 1008 mt 
+(-0.7) s
+4036 1008 mt 
+(2.37) s
+2967 1392 mt 
+(2) s
+3233 1392 mt 
+(-0.64) s
+3617 1392 mt 
+(-0.61) s
+4036 1392 mt 
+(0.97) s
+2967 1776 mt 
+(3) s
+3233 1776 mt 
+(-0.58) s
+3617 1776 mt 
+(-0.95) s
+4036 1776 mt 
+(1.63) s
+2967 2160 mt 
+(4) s
+3233 2160 mt 
+(-0.57) s
+3617 2160 mt 
+(-0.81) s
+4069 2160 mt 
+(1.4) s
+2967 2545 mt 
+(5) s
+3233 2545 mt 
+(-0.57) s
+3617 2545 mt 
+(-0.84) s
+4069 2545 mt 
+(1.5) s
+2967 2929 mt 
+(6) s
+3233 2929 mt 
+(-0.52) s
+3617 2929 mt 
+(-0.78) s
+4036 2929 mt 
+(1.51) s
+2967 3313 mt 
+(7) s
+3233 3313 mt 
+(-0.43) s
+3617 3313 mt 
+(-0.79) s
+4036 3313 mt 
+(1.82) s
+2967 3697 mt 
+(8) s
+3233 3697 mt 
+(-0.57) s
+3617 3697 mt 
+(-0.74) s
+4069 3697 mt 
+(1.3) s
+2967 4081 mt 
+(9) s
+3266 4081 mt 
+(-0.5) s
+3617 4081 mt 
+(-0.79) s
+4069 4081 mt 
+(1.6) s
+2934 4465 mt 
+(10) s
+3233 4465 mt 
+(-0.51) s
+3617 4465 mt 
+(-0.78) s
+4036 4465 mt 
+(1.58) s
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+2846  154 mt 
+(Normalised Log Likelihoods) s
+2924  292 mt 
+(Figure   JJ     Us   Factor) s
+
+end
+
+eplot
+%%EndObject graph 1
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%BoundingBox:    92   198   543   612
+%%Pages: 001
+%%EOF
